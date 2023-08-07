@@ -1,0 +1,20 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-flexio_camera_rt1010" type="app_note" format="projectfile" name="flexio_camera">
+    <overview>
+        <![CDATA[This example shows how to use FlexIO simulated camera interface to receive camera data, and display the camera frames in a LCD panel.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="iar"></toolchain>
+    </toolchains>
+    <families>
+        <family name="imxrt"></family>
+    </families>
+    <nxp_compatible_hw>
+        <custom_hw></custom_hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="video"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+    </categories>
+</data:item>
