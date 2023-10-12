@@ -1,6 +1,9 @@
-<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-flexio_camera_rt1010" type="app_note" format="projectfile" name="flexio_camera">
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-flexio_camera_rt1010" type="app_note" format="projectfile" name="flexio_camera_rt1010">
+    <display_title>
+        AN12686: Emulation of parallel camera interface via FlexIO on i.MX RT1010
+    </display_title>
     <overview>
-        <![CDATA[This example shows how to use FlexIO simulated camera interface to receive camera data, and display the camera frames in a LCD panel.]]>
+        <![CDATA[This software accompanies application note [AN12686](https://www.nxp.com/docs/en/application-note/AN12686.pdf), which describes how to use the FlexIO to emulate the parallel camera interface to receive real-time image data from a camera device based on i.MX RT1010.]]>
     </overview>
     <toolchains>
         <toolchain name="iar"></toolchain>
@@ -12,9 +15,12 @@
         <custom_hw></custom_hw>
     </nxp_compatible_hw>
     <peripherals>
+        <peripheral name="i2c"></peripheral>
+        <peripheral name="spi"></peripheral>
         <peripheral name="video"></peripheral>
     </peripherals>
     <categories>
         <category name="graphics"></category>
+        <category name="vision"></category>
     </categories>
 </data:item>

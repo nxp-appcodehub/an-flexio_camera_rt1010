@@ -16,9 +16,10 @@ on.
 - Implementation of logic functions.
 - Implementation of state-machine functions.
 
+
 #### Boards: EVBMIMXRT1010
-#### Categories: Graphics
-#### Peripherals: VIDEO
+#### Categories: Graphics, Vision
+#### Peripherals: I2C, SPI, VIDEO
 #### Toolchains: IAR
 
 ## Table of Contents
@@ -32,7 +33,7 @@ on.
 
 ## 1. Software<a name="step1"></a>
 This demo is built based on NXP MCUXpresso SDK. And this repository contains all required source files.
-- MCUXpresso SDK: 2.x.x
+- MCUXpresso SDK: 2.5.0
 - IAR Embedded Workbench for ARM: 9.30.1
 
 
@@ -90,10 +91,10 @@ If you have questions, please create a ticket in NXP Community.
 [![Board badge](https://img.shields.io/badge/Board-EVBMIMXRT1010-blue)](https://github.com/search?q=org%3Anxp-appcodehub+EVK-EVBMIMXRT1010+in%3Areadme&type=Repositories)
 
 <!----- Categories ----->
-[![Category badge](https://img.shields.io/badge/Category-GRAPHICS-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+graphics+in%3Areadme&type=Repositories)
+[![Category badge](https://img.shields.io/badge/Category-GRAPHICS-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+graphics+in%3Areadme&type=Repositories) [![Category badge](https://img.shields.io/badge/Category-VISION-yellowgreen)](https://github.com/search?q=org%3Anxp-appcodehub+vision+in%3Areadme&type=Repositories)
 
 <!----- Peripherals ----->
-[![Peripheral badge](https://img.shields.io/badge/Peripheral-VIDEO-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+video+in%3Areadme&type=Repositories)
+[![Peripheral badge](https://img.shields.io/badge/Peripheral-I2C-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+i2c+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-SPI-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+spi+in%3Areadme&type=Repositories) [![Peripheral badge](https://img.shields.io/badge/Peripheral-VIDEO-yellow)](https://github.com/search?q=org%3Anxp-appcodehub+video+in%3Areadme&type=Repositories)
 
 <!----- Toolchains ----->
 [![Toolchain badge](https://img.shields.io/badge/Toolchain-IAR-orange)](https://github.com/search?q=org%3Anxp-appcodehub+iar+in%3Areadme&type=Repositories)
@@ -110,5 +111,5 @@ Questions regarding the content/correctness of this example can be entered as Is
 ## 7. Release Notes<a name="step7"></a>
 | Version | Description / Update                           | Date                        |
 |:-------:|------------------------------------------------|----------------------------:|
-| 1.0     | Initial release on Application Code HUb        | June 12<sup>th</sup> 2023 |
+| 1.0     | Initial release on Application Code Hub        | August 10<sup>th</sup> 2023 |
 
